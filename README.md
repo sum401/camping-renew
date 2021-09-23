@@ -9,3 +9,6 @@
 ## 기존 사이트
 [원본사이트](http://www.xn--bb0b05e18j4qc88hotlwudovmr8o.com/)
 
+## 와이어프레임
+[figma](https://www.figma.com/file/pawa7NPKpt1ZeQG3hcKBVG/Untitled?node-id=0%3A1)
+
