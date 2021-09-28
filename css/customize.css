@@ -1,0 +1,47 @@
+body {
+    font: 16px/1.5 "Noto Sans KR", "Maven Pro", sans-serif;
+    color: #191919;
+}
+
+a,
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    padding: 0;
+}
+
+#gnb {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 부트스트랩 스타일을 커스텀 과정 */
+.container-fluid {
+    padding: 0;
+}
+
+.bx-wrapper {
+    border: 0;
+}
+
+.slider-wrap {
+    position: absolute !important;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+}
+
+.h-600 {
+    height: 600px;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+h4 i {
+    margin-right: 10px;
+}

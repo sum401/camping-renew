@@ -4,94 +4,111 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <!-- Reset CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-      <!-- bx-slider -->
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Noto+Sans+KR&display=swap" rel="stylesheet">
-      
-
-
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <!-- bxslider CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-    <title>지리산 반내골 캠프</title>
 
-     
-     <style>
-      body {
-        font: 16px/1.5 "Noto Sans KR", "Maven Pro", sans-serif;
-        color: #191919;
-      }
-      a, a:link {
-        text-decoration: none;
-        color: inherit;
-      }
-      ul li{
-        list-style: none;
-      }
-      ul {
-        padding: 0;
-      }
-      
-      #gnb { 
-        display: flex;
-        justify-content: space-between;
-      }
-      /* 부트스트랩 스타일을 커스텀 과정 */
-      .container-fluid {
-          padding: 0;
-      }
-      .bx-wrapper {
-          border: 0;
-      }     
-      .slider-wrap {
-        position: absolute !important;
-        width: 100%;
-        top: 0;
-        z-index: -1;}
-    
-    </style>
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>지리산 반내골 캠핑장</title>
+    <link href="css/customize.css" rel="stylesheet">
   </head>
-
   <body>
     <h1 class="d-none">지리산 반내골 캠핑장</h1>
-    <div class="container-fluid">
-     
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="logo col-md-3">
-                <a href="#">
-                  <img src="images/logo.png" class="img-fluid" alt="지리산 반내골 오토캠핑장">
-                </a>
-              </div>
-              <nav class="col-md-9">
-                <ul id="gnb" class="justify-content-between">
-                  <li><a href="#">캠핑장소개</a></li>
-                  <li><a href="#">시설소개</a></li>
-                  <li><a href="#">주변관광지</a></li>
-                  <li><a href="#">실시간예약</a></li>
-                  <li><a href="#">참여공간</a></li>
-                </ul>
-              </nav>
-            </div>
-          </div>
-          <div class="slider-wrap">
-            <div class="slider">
-              <div>
-                  <img src="https://picsum.photos/1920/600?image=1" alt="dummy">
-              </div>
-              <div>
-                  <img src="https://picsum.photos/1920/600?image=10" alt="dummy">
-              </div>
-              <div>
-                  <img src="https://picsum.photos/1920/600?image=100" alt="dummy">
+    <header>
+      <div class="container-fluid">
+            <div class="container h-600">
+              <div class="row align-items-center">
+                <div class="logo col-md-3">
+                  <a href="#">
+                    <img src="images/logo.png" class="img-fluid" alt="지리산 반내골 오토캠핑장">
+                  </a>
+                </div>
+                <nav class="col-md-9">
+                  <ul id="gnb" class="justify-content-between">
+                    <li><a href="#">캠핑장소개</a></li>
+                    <li><a href="#">시설소개</a></li>
+                    <li><a href="#">주변관광지</a></li>
+                    <li><a href="#">실시간예약</a></li>
+                    <li><a href="#">참여공간</a></li>
+                  </ul>
+                </nav>
               </div>
             </div>
+            <div class="slider-wrap">
+              <div class="slider">
+                <div>
+                    <img src="https://picsum.photos/1920/600?image=1" alt="dummy">
+                </div>
+                <div>
+                    <img src="https://picsum.photos/1920/600?image=10" alt="dummy">
+                </div>
+                <div>
+                    <img src="https://picsum.photos/1920/600?image=100" alt="dummy">
+                </div>
+              </div>
+            </div>
+      </div>
+    </header>
+    <section id="main">
+      <h2 class="d-none">빠른메뉴</h2>
+      <article>
+        <h3 class="d-none">반내골 캠핑장 빠른메뉴</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <h4><i class="bi bi-geo-alt-fill"></i>오시는 길</h4>
+              <p>지리산 반내골 오토 캠핑장은 구례 문척면 중산리
+                계곡 상류에 위치하여 산과 시냇물이 어우러진
+                물맑고 조용한 자연오토캠핑장 입니다.</p>
+                <button type="button" class="btn btn-outline-dark rounded-pill">더보기 &gt;</button>
+            </div>
+            <div class="col-12 col-md-4">
+              <h4><i class="bi bi-building"></i>부대시설</h4>
+              <p>약 5000여평의 부지에 40여개의 안락한 텐트시설과
+                카라반이 비치되어 있으며
+                객실 외부에서 사용 할 수 있는 남녀 화장실과
+                따뜻한 온수가 나오는 남녀 샤워실이 별도로 갖춰져 있어,
+                손님들께 불편함이 없도록 하였습니다.</p>
+                <button type="button" class="btn btn-outline-dark rounded-pill">더보기 &gt;</button>
+            </div>
+            <div class="col-12 col-md-4">
+              <h4><i class="bi bi-info-circle-fill"></i>주변시설 및 산책로</h4>
+              <p>야영장, 족구장이 있어서 동행분들과 신나게 즐길 수 있고
+                사이트 옆에는 계곡이 흐르고 있어서 여름철 물놀이, 낚시,
+                다슬기 체험을 할 수 있습니다.
+                또한 단체 워크샵을 진행할 수 있도록 별도의 세미나실이
+                준비되어 있습니다.</p>
+                <button type="button" class="btn btn-outline-dark rounded-pill">더보기 &gt;</button>
+            </div>
           </div>
-    </div>
+        </div>
+      </article>
+      <article>
+        <h3 class="d-none">캠핑장 예약조회</h3>
+        <div class="container">
+          <div class="row">
+            <hgroup class="col">
+              <h4>물 맑고 조용한 지리산</h4>
+              <h5>자연오토캠핑장</h5>
+            </hgroup>
+            <div class="col">
+              <button type="button" class="btn btn-outline-dark">예약/조회</button>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <script>
         $(document).ready(function(){
