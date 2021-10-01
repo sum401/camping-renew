@@ -53,3 +53,17 @@ h4 i {
     width: 40px;
     height: 40px;
 }
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    /* 공간비율 단위 */
+    gap: 10px;
+}
+
+/* media qyery */
+/* @media screen and(min-width: 768px)  and(max-width:992px){
+    hight
+    
+} */
